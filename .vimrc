@@ -21,5 +21,5 @@ set number
 "bash autocompletion
 set wildmode=longest,list
 
-"tags configuration
-set tags=/home/ijuch/work/tarana/aimless/code/tags
+"set colorscheme
+colorscheme desert
