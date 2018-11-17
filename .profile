@@ -7,4 +7,4 @@ parse_git_branch() {
 }
 
 # set prompt
-export PS1="\e[1;34m\u\e[m@\e[1;32m\h\e[m:\e[0;33m\w\e[m \e[0;36m\$(parse_git_branch)\n\e[0;31m$\e[m "
+export PS1="\[\e[1;34m\]\u\[\e[m\]@\[\e[1;32m\]\h\[\e[m\]:\[\e[0;33m\]\w\[\e[m\] \[\e[0;36m\]\$(parse_git_branch)\n\[\e[0;31m\]$\[\e[m\] "
