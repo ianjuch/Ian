@@ -22,4 +22,6 @@ set number
 set wildmode=longest,list
 
 "set colorscheme
-colorscheme desert
+"colorscheme desert
+
+execute pathogen#infect()
