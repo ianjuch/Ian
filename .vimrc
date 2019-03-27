@@ -1,7 +1,8 @@
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set hlsearch
+set wrapscan
 
 syntax on
 
@@ -17,11 +18,14 @@ set mouse=c
 set ignorecase
 set smartcase
 set number
+set backspace=2
 
 "bash autocompletion
 set wildmode=longest,list
 
-"set colorscheme
-"colorscheme desert
+"highlight the current line
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
 
+"install pathogen
 execute pathogen#infect()
